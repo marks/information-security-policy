@@ -73,7 +73,7 @@ establish information system accounts and approves such
 requests. **Operations** prohibits and restricts the use of shared
 information system accounts (e.g., guest, anonymous accounts) and
 removes, disables, or otherwise secures unnecessary accounts on
-sensitive information systems every 3 months. **Operations** is notified
+**sensitive** information systems every 3 months. **Operations** is notified
 when information system users are terminated or transferred and
 associated accounts are removed, disabled, or otherwise
 secured. **Operations** is notified when users information system usage or
@@ -119,7 +119,7 @@ performance of specified tasks.
 
 ### Unsuccessful Login Attempts ###
 A limit of 6 consecutive invalid access attempts by a user is enforced
-by the sensitive information system. Unless released by an
+by the **sensitive** information system. Unless released by an
 administrator, the information system automatically locks the account
 for 30 minutes and delays the next login prompt when the maximum
 number of unsuccessful attempts is exceeded.
@@ -152,7 +152,7 @@ uniquely identified and authenticated by the information system for
 all accesses explicitly documented by Human Resources and
 Security. Authentication of user identities is accomplished through
 the use of passwords, cryptographic keys, tokens, or some combination
-thereof for multifactor authentication. Sensitive information systems
+thereof for multifactor authentication. **Sensitive** information systems
 implement multifactor authentication for remote and local accesses at
 the application level or information system level (e.g. system
 logins).
@@ -185,12 +185,12 @@ of the corresponding private key; and (ii) maps the authenticated
 identity to the user account.
 
 ### Cryptographic Key Establishment And Management ###
-**Operations** establishes and manages sensitive cryptographic keys using
+**Operations** establishes and manages **sensitive** cryptographic keys using
 automated mechanisms with supporting procedures. **Operations** implements
 strong cryptography and effective cryptographic key management in
 support of encryption and provides protections to maintain the
-availability of the sensitive information in the event of the loss of
-cryptographic keys. **Operations** changes sensitive cryptographic keys
+availability of the **sensitive** information in the event of the loss of
+cryptographic keys. **Operations** changes **sensitive** cryptographic keys
 (i) every 1 year; (ii) when cryptographic keys are lost, compromised;
 and (iii) when individuals are transferred/terminated. Public key
 certificates are obtained from an approved service provider or issued
@@ -275,7 +275,7 @@ retaining and restoring audit records.
 Time stamps for use in audit record generation are provided by the
 information system. Time stamps (including date and time) of audit
 records are generated using internal system clocks. **Operations** employs
-automated mechanisms (e.g. ntp) to synchronize sensitive information
+automated mechanisms (e.g. ntp) to synchronize **sensitive** information
 system time with internal time servers. Internal time servers receive
 time updates only from industry-accepted time sources.
 
@@ -347,7 +347,7 @@ employed to make security alert and advisory information available
 throughout the organization as needed.
 
 ### Vulnerability Scanning ###
-**Security** scans for vulnerabilities in the sensitive information system
+**Security** scans for vulnerabilities in the **sensitive** information system
 every 3 months and after any significant change in the network
 occurs. Vulnerability scanning is internally conducted using
 appropriate scanning tools and techniques and externally conducted via
@@ -383,9 +383,9 @@ as quickly as possible.
 
 ### Incident Response Training And Testing ###
 **Security** trains personnel in their incident response roles and
-responsibilities with respect to the sensitive information system and
+responsibilities with respect to the **sensitive** information system and
 provides refresher training every 1 year. **Security** tests and exercises
-the incident response capability for the sensitive information system
+the incident response capability for the **sensitive** information system
 every 1 year using simulated events to determine the incident response
 effectiveness and documents the results.
 
@@ -401,13 +401,13 @@ accordingly. **Operations** employs automated mechanisms to support the
 incident handling process.
 
 ### Incident Monitoring And Reporting ###
-**Security** tracks and documents sensitive information system security
+**Security** tracks and documents **sensitive** information system security
 incidents on an ongoing basis. **Operations** employs automated mechanisms
 (e.g. monitoring tools) to assist in the tracking of security
 incidents and in the collection and analysis of incident
 information. **Security** promptly reports incident information to
 appropriate authorities. In addition to incident information,
-weaknesses and vulnerabilities in the sensitive information system are
+weaknesses and vulnerabilities in the **sensitive** information system are
 reported to appropriate organizational officials in a timely manner to
 prevent security incidents. Organizational officials report security
 compromises to appropriate payment brands and legal bodies within an
@@ -420,7 +420,7 @@ performing tasks on incident monitoring and reporting.
 ### Incident Response Assistance ###
 **Security** provides an incident response support resource available
 on-call 24/7 that offers advice and assistance to personnel of the
-sensitive information system for the handling and reporting of
+**sensitive** information system for the handling and reporting of
 security incidents.
 
 
@@ -431,7 +431,7 @@ features are delivered securely with minimized risk, and required
 functionality is available with minimal risk.
 
 ### Life Cycle Support ###
-Engineering designs and implements the sensitive information system
+Engineering designs and implements the **sensitive** information system
 using an agile software development life cycle methodology that
 includes information security considerations. In the following phase,
 Engineering employs information security considerations in the
@@ -449,7 +449,7 @@ Engineering designs and implements the information system using
 security engineering principles and applies them to system upgrades
 and modifications. Engineering adheres to best practice secure coding
 guidelines (e.g. Owasp Top 10, Cert Secure Coding, CWE/Sans Top
-25). Sensitive information system data (e.g. live PANs) is not used
+25). **Sensitive** information system data (e.g. live PANs) is not used
 for development/testing, and test data (e.g. custom application
 accounts, identifiers, authenticators) is removed before code release
 into the information system. Application management procedure
@@ -458,17 +458,17 @@ common coding vulnerabilities.
 
 ### Developer Security Testing ###
 Engineering creates a security test and evaluation plan, implements
-the plan, and documents the results for the sensitive information
+the plan, and documents the results for the **sensitive** information
 system. Developmental security test results are used to the greatest
 extent feasible after verification of the results and recognizing that
 these results are impacted whenever there have been security relevant
-modifications to the sensitive information system subsequent to
+modifications to the **sensitive** information system subsequent to
 developer testing.
 
 ### Developer Change Control ###
 Engineering controls changes to the system during development, tracks
 security flaws, requires authorization of changes, and provides
-documentation of the implementation for the sensitive information
+documentation of the implementation for the **sensitive** information
 system.
 
 
@@ -479,12 +479,12 @@ environments are maintained throughout transition activities and
 handled reliably on the basis of formal approvals.
 ### Configuration Change Control ###
 **Operations** authorizes, documents, and controls changes to the
-sensitive information system. Configuration change control involves
+**sensitive** information system. Configuration change control involves
 the systematic proposal, justification, implementation,
-test/evaluation, review, and disposition of changes to the sensitive
+test/evaluation, review, and disposition of changes to the **sensitive**
 information system, including upgrades and
 modifications. Configuration change control includes changes to the
-configuration settings for sensitive information technology products
+configuration settings for **sensitive** information technology products
 (e.g., operating systems and firewalls). **Operations** includes emergency
 changes in the configuration change control process, including changes
 resulting from the remediation of flaws. **Operations** employs automated
@@ -502,15 +502,15 @@ specifies methods for performing tasks on configuration change
 control.
 
 ### Monitoring Configuration Changes ###
-**Operations** and **Engineering** monitor changes to the sensitive
+**Operations** and **Engineering** monitor changes to the **sensitive**
 information system conducting security impact analyses to determine
 the effects of the changes. Prior to change implementation, and as
 part of the change approval process, **Operations** analyzes changes to
 the information system for potential security impacts. After the
-sensitive information system is changed (including upgrades and
+**sensitive** information system is changed (including upgrades and
 modifications), **Operations** checks the security features to verify that
 the features are still functioning properly. **Operations** audits
-activities associated with the configuration changes to the sensitive
+activities associated with the configuration changes to the **sensitive**
 information system. Monitoring configuration changes and conducting
 security impact analyses are important elements with regard to the
 ongoing assessment of security controls in the information system.
@@ -520,7 +520,7 @@ ongoing assessment of security controls in the information system.
 physical and logical access restrictions associated with changes to
 the information system; and (ii) generates, retains, and reviews
 records reflecting all such changes. Only **Operations** obtain access to
-sensitive information system components for the purposes of initiating
+**sensitive** information system components for the purposes of initiating
 changes, including upgrades, and modifications. **Operations** employs
 automated mechanisms to enforce access restrictions and support
 auditing of the enforcement actions.
@@ -534,7 +534,7 @@ in the case of software developed and maintained by a
 vendor/contractor) (i) installs, within 1 month, newly released
 security relevant patches, service packs, and hot fixes; and (ii)
 tests patches, service packs, and hot fixes for effectiveness and
-potential side effects on the organization’s sensitive information
+potential side effects on the organization’s **sensitive** information
 systems before installation. Flaws discovered during security
 assessments, continuous monitoring, incident response activities, or
 information system error handling are also addressed
@@ -552,7 +552,7 @@ are baselined, maintained, and consistent.
 
 ### Baseline Configuration ###
 **Operations** develops, documents, and maintains a current baseline
-configuration of the sensitive information system. Baseline
+configuration of the **sensitive** information system. Baseline
 configurations provide information about a component’s makeup
 (e.g. the standard software stack for a database including updated
 patch information) and the component’s logical placement within the
@@ -585,12 +585,12 @@ verify configuration settings. System configuration standard provides
 guidance on configuration settings and system hardening standards.
 
 ### Least Functionality ###
-**Operations** configures the sensitive information system to provide only
+**Operations** configures the **sensitive** information system to provide only
 essential capabilities and specifically prohibits/restricts the use of
 all ports, protocols, and/or services without documented business
 justifications. **Operations** limits component functionality to a single
 function per server (e.g. application server or database server, not
-both), where feasible. **Operations** reviews the sensitive information
+both), where feasible. **Operations** reviews the **sensitive** information
 system every 6 months to document business justifications for enabled
 capabilities and to eliminate unnecessary functions (e.g. scripts,
 drivers, ports, protocols, services, firewall rules).
@@ -620,12 +620,12 @@ information system. Any connections to the Internet, or other external
 networks or information systems, occur through appropriate boundary
 protection devices (e.g., proxies, gateways, firewalls, encrypted
 tunnels) arranged in an effective architecture (e.g. DMZs where
-sensitive application gateways reside on a protected
+**sensitive** application gateways reside on a protected
 subnetwork). **Operations** (i) allocates publicly accessible information
 system components to separate subnetworks; (ii) prevents public access
-into the organization’s sensitive internal networks except as
+into the organization’s **sensitive** internal networks except as
 appropriately mediated; (iii) limits the number of access points to
-and from the sensitive information system. **Operations** partitions
+and from the **sensitive** information system. **Operations** partitions
 information systems into separate environments (e.g. development,
 test, production) and restricts/prohibits network access to authorized
 personnel. Boundary protections at any designated alternate processing
@@ -650,9 +650,9 @@ destination objects; (ii) protected processing domains (e.g. domain
 type-enforcement); and/or (iii) dynamic security policy mechanisms.
 
 ### Wireless Access Restrictions ###
-**Operations** (i) authorizes, monitors, and controls sensitive wireless
+**Operations** (i) authorizes, monitors, and controls **sensitive** wireless
 access to the information system; and (ii) uses strong authentication
-and strong encryption to protect sensitive wireless access to the
+and strong encryption to protect **sensitive** wireless access to the
 information system. PCI-DSS provides guidance on strong encryption.
 
 ### Information System Documentation ###
@@ -660,7 +660,7 @@ information system. PCI-DSS provides guidance on strong encryption.
 authorized personnel, adequate documentation for the information
 system. Documentation (e.g. network diagrams) describing the
 functional properties, design, and implementation details of the
-security controls employed within the sensitive information system are
+security controls employed within the **sensitive** information system are
 updated every 1 month with sufficient detail to permit analysis and
 testing of the controls.
 

@@ -60,7 +60,7 @@ into functional roles.
 **Operations** manages information system accounts, including
 establishing, activating, modifying, reviewing, disabling, and
 removing accounts. **Operations** reviews **sensitive** information system
-accounts every 1 year. Account management includes the identification
+accounts **every 1 year**. Account management includes the identification
 of account types (e.g. individual, group, and system), establishment
 of conditions for group membership, and assignment of associated
 authorizations. **Operations** identifies authorized users of the
@@ -191,7 +191,7 @@ strong cryptography and effective cryptographic key management in
 support of encryption and provides protections to maintain the
 availability of the **sensitive** information in the event of the loss of
 cryptographic keys. **Operations** changes **sensitive** cryptographic keys
-(i) every 1 year; (ii) when cryptographic keys are lost, compromised;
+(i) **every 1 year**; (ii) when cryptographic keys are lost, compromised;
 and (iii) when individuals are transferred/terminated. Public key
 certificates are obtained from an approved service provider or issued
 by the organization. Key management procedure specifies methods for
@@ -318,7 +318,7 @@ disruption, modification, or destruction of information and
 information systems that support the operations and assets of the
 organization (including information and information systems
 managed/operated by external parties). **Security** updates the risk
-assessment every 1 year and after significant changes to the
+assessment **every 1 year** and after significant changes to the
 information system. Risk assessments take into account
 vulnerabilities, threat sources, and security controls planned or in
 place to determine the resulting level of residual risk posed to
@@ -365,7 +365,7 @@ initiated for remediation efforts.
 
 ### Penetration Testing ###
 **Security** performs penetration (e.g. network-layer, application-layer)
-testing every 1 year. Tests include components for network functions,
+testing **every 1 year**. Tests include components for network functions,
 operating systems, and high risk vulnerabilities identified in PCI-DSS
 6.5. Penetration testing is internally and externally conducted using
 appropriate testing tools and techniques and by trained selected
@@ -384,9 +384,9 @@ as quickly as possible.
 ### Incident Response Training And Testing ###
 **Security** trains personnel in their incident response roles and
 responsibilities with respect to the **sensitive** information system and
-provides refresher training every 1 year. **Security** tests and exercises
+provides refresher training **every 1 year**. **Security** tests and exercises
 the incident response capability for the **sensitive** information system
-every 1 year using simulated events to determine the incident response
+**every 1 year** using simulated events to determine the incident response
 effectiveness and documents the results.
 
 ### Incident Handling ###
@@ -670,7 +670,7 @@ processors, hosting) of external information system services provide
 written acknowledgement that adequate security controls are employed
 in accordance with policies, standards, guidance, and established
 service-level agreements, (ii) monitors and reviews security control
-compliance of providers every 1 year; and (iii) maintains an
+compliance of providers **every 1 year**; and (iii) maintains an
 up-to-date list of all service providers. External Information Systems
 Services procedure specifies methods for performing tasks on engaging
 service providers.
@@ -695,7 +695,7 @@ conducted on all personnel with access to assets.
 ### Security Awareness ###
 **Security** provides basic security awareness training to personnel
 before authorizing access to the system, when required by system
-changes, upon hire, and every 1 year thereafter. **Security** determines
+changes, upon hire, and **every 1 year** thereafter. **Security** determines
 the appropriate content of security awareness training based on the
 specific requirements of the organization and the information systems
 to which personnel have authorized access.
@@ -705,7 +705,7 @@ to which personnel have authorized access.
 significant information system security roles and responsibilities
 during the system development life cycle and provides appropriate
 information system security training (e.g. secure coding techniques
-according to industry best practices) every 1 year. NIST SP 800-50
+according to industry best practices) **every 1 year**. NIST SP 800-50
 provides guidance on security training.
 
 ### Personnel Screening ###
@@ -743,11 +743,11 @@ Human Resources completes appropriate signed access agreements
 (e.g. acceptable use agreements, rules of behavior, information
 security policy) for personnel requiring access to organizational
 information and information systems. Human Resources receives signed
-acknowledgement from users every 1 year indicating that they have
+acknowledgement from users **every 1 year** indicating that they have
 read, understood, and agree to abide by the agreements before
 authorizing access to the information system and its resident
-information. **Security** reviews and updates the access agreements every
-1 year. Electronic signatures are acceptable for use in acknowledging
+information. **Security** reviews and updates the access agreements **every
+1 year**. Electronic signatures are acceptable for use in acknowledging
 access agreements. **Security** establishes a set of rules (e.g. Rules Of
 Behavior) for all Personnel.
 

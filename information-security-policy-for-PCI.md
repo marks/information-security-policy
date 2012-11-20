@@ -108,7 +108,7 @@ that prevents users from having all of the necessary authority or
 information access to perform fraudulent activity without
 collusion. Examples of separation of duties include: (i) mission
 functions and distinct information system support functions are
-divided among **Operations**, Engineering, and **Security**; and (ii)
+divided among **Operations**, **Engineering**, and **Security**; and (ii)
 different teams perform information system support functions (e.g.,
 systems programming and systems management).
 
@@ -431,10 +431,10 @@ features are delivered securely with minimized risk, and required
 functionality is available with minimal risk.
 
 ### Life Cycle Support ###
-Engineering designs and implements the **sensitive** information system
+**Engineering** designs and implements the **sensitive** information system
 using an agile software development life cycle methodology that
 includes information security considerations. In the following phase,
-Engineering employs information security considerations in the
+**Engineering** employs information security considerations in the
 following phases: (i) Requirements: Misuse cases are identified and
 assessed against security risks (e.g. Owasp Top 10); (ii)
 Implementation: Test cases are developed and code is reviewed by a
@@ -445,9 +445,9 @@ Change management policy is followed; (v) Maintenance: Problems are
 identified and Incident management policy is followed.
 
 ### Security Engineering Principles ###
-Engineering designs and implements the information system using
+**Engineering** designs and implements the information system using
 security engineering principles and applies them to system upgrades
-and modifications. Engineering adheres to best practice secure coding
+and modifications. **Engineering** adheres to best practice secure coding
 guidelines (e.g. Owasp Top 10, Cert Secure Coding, CWE/Sans Top
 25). **Sensitive** information system data (e.g. live PANs) is not used
 for development/testing, and test data (e.g. custom application
@@ -457,7 +457,7 @@ specifies methods for ensuring applications are not vulnerable to
 common coding vulnerabilities.
 
 ### Developer Security Testing ###
-Engineering creates a security test and evaluation plan, implements
+**Engineering** creates a security test and evaluation plan, implements
 the plan, and documents the results for the **sensitive** information
 system. Developmental security test results are used to the greatest
 extent feasible after verification of the results and recognizing that
@@ -466,7 +466,7 @@ modifications to the **sensitive** information system subsequent to
 developer testing.
 
 ### Developer Change Control ###
-Engineering controls changes to the system during development, tracks
+**Engineering** controls changes to the system during development, tracks
 security flaws, requires authorization of changes, and provides
 documentation of the implementation for the **sensitive** information
 system.
@@ -701,7 +701,7 @@ specific requirements of the organization and the information systems
 to which personnel have authorized access.
 
 ### Security Training ###
-**Security** identifies personnel (e.g. **Operations**, Engineering) that have
+**Security** identifies personnel (e.g. **Operations**, **Engineering**) that have
 significant information system security roles and responsibilities
 during the system development life cycle and provides appropriate
 information system security training (e.g. secure coding techniques
